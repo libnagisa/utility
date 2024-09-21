@@ -159,10 +159,16 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="include\nagisa\stl_freestanding\utility\config\use_stl.h" />
     <ClInclude Include="include\nagisa\stl_freestanding\utility\core.h" />
+    <ClInclude Include="include\nagisa\stl_freestanding\utility\detail\address_of.h" />
+    <ClInclude Include="include\nagisa\stl_freestanding\utility\detail\as_const.h" />
+    <ClInclude Include="include\nagisa\stl_freestanding\utility\detail\compare.h" />
+    <ClInclude Include="include\nagisa\stl_freestanding\utility\detail\declval.h" />
     <ClInclude Include="include\nagisa\stl_freestanding\utility\detail\environment.h" />
-    <ClInclude Include="include\nagisa\stl_freestanding\utility\detail\value_category.h" />
+    <ClInclude Include="include\nagisa\stl_freestanding\utility\detail\forward.h" />
+    <ClInclude Include="include\nagisa\stl_freestanding\utility\detail\in_range.h" />
+    <ClInclude Include="include\nagisa\stl_freestanding\utility\detail\move.h" />
+    <ClInclude Include="include\nagisa\stl_freestanding\utility\detail\to_underlying.h" />
     <ClInclude Include="include\nagisa\stl_freestanding\utility\environment.h" />
     <ClInclude Include="include\nagisa\stl_freestanding\utility\utility.h" />
   </ItemGroup>
