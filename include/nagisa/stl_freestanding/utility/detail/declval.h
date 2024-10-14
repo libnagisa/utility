@@ -2,7 +2,7 @@
 
 #include "./environment.h"
 
-NGS_BUILD_LIB_DETAIL_BEGIN
+NAGISA_BUILD_LIB_DETAIL_BEGIN
 
 template <class T>
 ::std::add_rvalue_reference_t<T> declval() noexcept
@@ -10,4 +10,4 @@ template <class T>
     static_assert(false, "calling declval is ill-formed, see N4950 [declval]/2.");
 }
 
-NGS_BUILD_LIB_DETAIL_END
+NAGISA_BUILD_LIB_DETAIL_END

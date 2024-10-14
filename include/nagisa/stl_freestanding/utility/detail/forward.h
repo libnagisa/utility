@@ -4,7 +4,7 @@
 #include "./as_const.h"
 #include "./environment.h"
 
-NGS_BUILD_LIB_DETAIL_BEGIN
+NAGISA_BUILD_LIB_DETAIL_BEGIN
 
 template <class T>
 [[nodiscard]] constexpr auto&& forward(::std::remove_reference_t<T>& arg) noexcept
@@ -40,4 +40,4 @@ constexpr auto&& forward_like(U&& x) noexcept
 }
 
 
-NGS_BUILD_LIB_DETAIL_END
+NAGISA_BUILD_LIB_DETAIL_END

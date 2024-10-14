@@ -3,7 +3,7 @@
 #include "./environment.h"
 
 
-NGS_BUILD_LIB_DETAIL_BEGIN
+NAGISA_BUILD_LIB_DETAIL_BEGIN
 
 template<class T, class U>
 constexpr bool cmp_equal(T t, U u) noexcept
@@ -51,4 +51,4 @@ constexpr bool cmp_greater_equal(T t, U u) noexcept
     return !details::cmp_less(t, u);
 }
 
-NGS_BUILD_LIB_DETAIL_END
+NAGISA_BUILD_LIB_DETAIL_END

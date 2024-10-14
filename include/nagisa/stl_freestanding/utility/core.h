@@ -10,7 +10,7 @@
 #include "./detail/to_underlying.h"
 #include "./environment.h"
 
-NGS_BUILD_LIB_BEGIN
+NAGISA_BUILD_LIB_BEGIN
 
 using details::move;
 using details::move_if_noexcept;
@@ -19,7 +19,7 @@ using details::as_const;
 
 using details::forward;
 using details::forward_like;
-#define NGS_STL_FREESTANDING_UTILITY_FORWARD(x) ::NGS_NS::stl_freestanding::utility::forward<decltype(x)>(x)
+#define NAGISA_STL_FREESTANDING_UTILITY_FORWARD(x) ::NAGISA_NS::stl_freestanding::utility::forward<decltype(x)>(x)
 
 using details::addressof;
 
@@ -36,4 +36,4 @@ using details::in_range;
 
 using details::to_underlying;
 
-NGS_BUILD_LIB_END
+NAGISA_BUILD_LIB_END

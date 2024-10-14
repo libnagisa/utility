@@ -3,7 +3,7 @@
 #include "./compare.h"
 #include "./environment.h"
 
-NGS_BUILD_LIB_DETAIL_BEGIN
+NAGISA_BUILD_LIB_DETAIL_BEGIN
 
 template<class R, class T>
 constexpr bool in_range(T t) noexcept
@@ -14,4 +14,4 @@ constexpr bool in_range(T t) noexcept
 	;
 }
 
-NGS_BUILD_LIB_DETAIL_END
+NAGISA_BUILD_LIB_DETAIL_END

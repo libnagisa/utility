@@ -2,7 +2,7 @@
 
 #include "./environment.h"
 
-NGS_BUILD_LIB_DETAIL_BEGIN
+NAGISA_BUILD_LIB_DETAIL_BEGIN
 
 template <class T>
 [[nodiscard]] constexpr ::std::remove_reference_t<T>&& move(T&& arg) noexcept
@@ -18,4 +18,4 @@ move_if_noexcept(T& arg) noexcept
     return details::move(arg);
 }
 
-NGS_BUILD_LIB_DETAIL_END
+NAGISA_BUILD_LIB_DETAIL_END
